@@ -15,7 +15,7 @@
     <div class="wrapper">
       <header class="header">
         <nav class="navbar navbar-expand-lg bg">
-          <div class="container">
+          <div class="container-fluid">
             <a class="navbar-brand d-lg-none d-md-block" href="#">
               <img src="./image/Logo.svg" alt="Logo" />
             </a>
@@ -75,10 +75,10 @@
       </header>
       <main>
         <section class="about">
-          <div class="custom-container h-100">
+          <div class="container h-100">
             <div class="row h-100">
               <div
-                class="col-7 d-flex justify-content-evenly flex-column align-items-start"
+                class="col-12 col-sm-12 cpl-md-12 col-lg-7 d-flex align-items-sm-center align-items-md-center align-items-lg-start justify-content-center justify-content -sm-center justify-content-md-center justify-content-evenly flex-column align-items-start"
               >
                 <h1>Enjoy Your Morning Coffee.</h1>
                 <p>
@@ -88,7 +88,7 @@
                 <button>Test Coffee</button>
               </div>
               <div
-                class="play-btn col-5 d-flex align-items-end justify-content-end"
+                class="play-btn col-12 col-sm-12 col-md-12 col-lg-5 d-flex align-items-center align-items-sm-center align-items-md-center align-items-lg-end justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end"
               >
                 <img src="./image/Play.file.svg" alt="" />
               </div>
@@ -98,22 +98,27 @@
         <section>
           <div class="flavour py-5 my-5">
             <div class="container">
-              <div class="row">
-                <div class="col">
+              <div
+                class="flavour-cards row d-flex justify-content-center justify-content-sm-center justify-content-md-between"
+              >
+                <div class="px-0 col-12 col-md">
                   <h4>
                     <span>01</span>
                     Best Coffee Flavour
                   </h4>
                   <img class="w-100" src="./image/flavour.file.png" alt="" />
                 </div>
-                <div class="col">
+                <div
+                  style="margin: 32px"
+                  class="px-0 col-12 col-md mt-4 mt-sm-4 mb-sm-4 mt-md-0 mb-md-0"
+                >
                   <h4>
                     <span>01</span>
                     Best Coffee Flavour
                   </h4>
                   <img class="w-100" src="./image/flavour.file.png" alt="" />
                 </div>
-                <div class="col">
+                <div class="px-0 col-12 col-md">
                   <h4>
                     <span>01</span>
                     Best Coffee Flavour
@@ -126,7 +131,7 @@
         </section>
         <section>
           <div class="container">
-            <div class="row">
+            <!-- <div class="row">
               <div class="col">
                 <img class="py-2" src="./image/creat.file.png" alt="" />
                 <img class="py-4" src="./image/story.file.png" alt="" />
@@ -145,11 +150,38 @@
                   vastibulum id tells mmodo mattis. aliauam erat volutpal.
                 </p>
               </div>
+            </div> -->
+            <div class="row">
+              <div class="history px-0">
+                <img class="w-100" src="./image/creat.file.png" alt="" />
+                <img
+                  class="w-100"
+                  src="./image/creat.file.png"
+                  alt=""
+                  style="margin-top: 32px"
+                />
+              </div>
+              <div class="history px-0" style="margin: 0 32px">
+                <img class="w-100" src="./image/Rectangle 14.png" alt="" />
+              </div>
+              <div class="history-desc col-6 px0">
+                <div>
+                  <span>Our history</span>
+                  <h2>Create a new story with us</h2>
+                  <p>
+                    mauris rhoncus in imperdiet placerat. vestibu emismd nisl
+                    suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa
+                    nibhtincidunt. donec et nibh maximus, est eu, mattis nuce.
+                    preasent ut quam quis quam venen atis fringilla. morbi
+                    vastibulum id tells mmodo mattis. aliauam erat volutpal.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
         <section>
-          <div class="container">
+          <!-- <div class="container">
             <div class="row">
               <div
                 class="popular col py-4 d-flex flex-column align-items-center"
@@ -201,28 +233,66 @@
                 <button>View all product</button>
               </div>
             </div>
+          </div> -->
+          <div class="popylar">
+            <div class="container">
+              <h3>Popular Product</h3>
+              <h2>Coffee popular Product</h2>
+              <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+              <a href="">View all product</a>
+            </div>
           </div>
         </section>
         <section>
-          <div class="container">
-           <div class="work">
-            <div class="row">
-              <div class="col py-5 my-5">
-                <img class="top" src="./image/WDCM-G15L-1-removebg-preview .png" alt="" />
-              </div>
-              <div class="machine col d-flex flex-column justify-content-evenly ">
-                <h5>Coffee machine,buy,for home</h5>
-                <p>
-                  mauris rhoncus in imperdiet placerat. vestibu emismd nisl
-                  suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa
-                  nibhtincidunt. donec et nib maximus, est eu, mattis nuce.
-                  preasent ut quam quis quam venen atis fri ngilla. morbi
-                  vastibulum id tells mmodo mattis. aliauam erat volutpal.
-                </p>
-                <button>Discover now</button>
+          <!-- <div class="container">
+            <div class="work">
+              <div class="row">
+                <div class="col py-5 my-5">
+                  <img
+                    class="top"
+                    src="./image/WDCM-G15L-1-removebg-preview .png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="machine col d-flex flex-column justify-content-evenly"
+                >
+                  <h5>Coffee machine,buy,for home</h5>
+                  <p>
+                    mauris rhoncus in imperdiet placerat. vestibu emismd nisl
+                    suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa
+                    nibhtincidunt. donec et nib maximus, est eu, mattis nuce.
+                    preasent ut quam quis quam venen atis fri ngilla. morbi
+                    vastibulum id tells mmodo mattis. aliauam erat volutpal.
+                  </p>
+                  <button>Discover now</button>
+                </div>
               </div>
             </div>
-           </div>
+          </div> -->
+          <div class="mashine">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <img src="" alt="" />
+                </div>
+                <div class="col">
+                  <h2>Coffee machine, buy for home</h2>
+                  <p>
+                    mauris rhoncus in imperdiet placerat. vestibu emismd nisl
+                    suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa
+                    nibhtincidunt. donec et nib maximus, est eu, mattis nuce.
+                    preasent ut quam quis quam venen atis fri ngilla. morbi
+                    vastibulum id tells mmodo mattis. aliauam erat volutpal.
+                  </p>
+                  <a href="">Discover now</a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section></section>

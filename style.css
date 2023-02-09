@@ -10,7 +10,7 @@
 main {
   background: #14110e;
 }
-h1 {
+.about >h1 {
   font-weight: 400;
   font-size: 72px;
   line-height: 130%;
@@ -58,7 +58,14 @@ p {
 .flavour-cards > div {
   width: 366px;
 }
-.Creat {
+.history{
+  width: 298px !important;
+}
+.history-desc{
+  
+  background: #1c1814;
+} 
+/* .Creat {
   height: 635px;
   background: #1c1814;
 }
@@ -79,7 +86,7 @@ p {
   font-size: 16px;
   line-height: 180%;
   color: rgba(255, 255, 255, 0.8);
-}
+} */
 .popular > span {
   font-weight: 600;
   font-size: 18px;
