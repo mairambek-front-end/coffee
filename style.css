@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #1c1814;
+}
+main {
+  background: #14110e;
+}
+h1 {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.navbar-nav .nav-link.active {
+  color: #c99e71;
+}
+.custom-container {
+  width: 992px;
+  margin: 0 auto;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+}
+.about {
+  background-image: url(./image/about.file.png);
+  background-size: cover;
+  background-position: center;
+  height: 740px;
+}
+.about button {
+  width: 202px;
+  height: 70px;
+  background: #c99e71;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.play-btn {
+  padding-bottom: 90px;
+}
+.flavour-cards > div {
+  width: 366px;
+}
+.Creat {
+  height: 635px;
+  background: #1c1814;
+}
+.Creat > span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c99e71;
+}
+.Creat > h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.Creat > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.popular > span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c99e71;
+}
+.popular > h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.Brazil {
+  height: 579px;
+  background: #121315;
+}
+.Brazil > h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Brazil > button {
+  width: 169px;
+  height: 48px;
+  background: #c99e71;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.Brazilia {
+  height: 579px;
+  background: #121315;
+}
+.Brazilia > h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Brazilia > span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Brazilia-top {
+  height: 579px;
+  background: #121315;
+}
+.Brazilia-top > h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Brazilia-top > span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.view > button {
+  width: 252px;
+  height: 62px;
+  background: #c99e71;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.machine > h5 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.machine > p {
+  width: 89%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+}
+.machine > button {
+  width: 215px;
+  height: 62px;
+  background: #c99e71;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.work {
+  height: 530px;
+  background: #1c1814;
+}
+.top {
+  padding: 0px 160px;
+}
